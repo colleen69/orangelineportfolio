@@ -1,0 +1,476 @@
+@media screen and (min-width: 1023px) {
+.display-dk {
+	display: block;
+	}
+.hidden-dk {
+	display: none;
+	}	
+}		
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+	
+.display-tb {
+	display: block;
+}
+
+.hidden-tb {
+	display: none;
+}
+	
+.nav-links .nav-link {
+  font-size: 4.5vw;
+	line-height: 2;
+}	
+	
+.nav-links {
+	margin-top: 6rem;
+}	
+	
+/*----HOME PAGE----*/
+.contact-info {
+	font-size: 28px;
+	letter-spacing: 1px;
+	line-height: 45px;
+}
+
+.play-portfolio, #show-hide {
+  font-size: 25px;
+}	
+	
+.section-home, .logo-design-pge, .id-pge, .Logo-design-pge, .contact-pge{
+	background-position: 70% 0;
+	}
+/*---LOGO PAGE----*/	
+	
+.logo-design-pge {
+	height: 100vh auto;
+}
+	
+.logo-container {
+	max-width: 768px;
+	margin: 0 auto;
+}
+	
+.logo-container img {
+  display: block;
+  max-width: 250px;
+  width: auto;
+  height: auto;
+}	
+	
+.hover:nth-child(9) {
+	display: flex;
+}	
+/*ID PAGE*/
+.id-pge {
+	height: 100vh auto;
+	}
+		
+.head-id {
+	z-index: 1;
+	position: absolute;
+	height: 95%;
+	}	
+	
+.csslider > ul {
+  width: 90%;
+}	
+	
+.csslider {
+	width: 80%;
+}
+/*
+.slide-show	{
+	background-color: var(--green);
+	color: #fff;
+	font-size: 26px;
+	height: 225px;
+	width: 250px;
+}	
+
+.ply-slideshow {
+	background-color: #fff;		
+	}	
+*/	
+	
+/*illustration-page	*/
+.illutr-pge {
+	height: 100vh auto;
+}	
+	
+.illust-container img {
+ 	width: 250px;
+	height: auto;
+}
+	
+.illust-container{
+	max-width: 768px;
+}
+	
+/*ANIMATION_PGE*/
+.video	{
+	display: flex;
+	flex-wrap: wrap;
+	height: 50%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	}
+
+.div-info-btn {
+	margin-top: 0px;
+	}
+	
+.video-container {
+	flex-direction: column;
+	}
+	
+/*WEB-SITE-PAGE*/
+.web-design-pge {
+  text-align: center;
+}
+	
+.website-container {
+	width: 100%;
+}
+	
+.website-container a {
+	width: 100%;
+}
+	
+	
+.btn-container {
+	width: 100%;
+	padding-bottom: 50px;
+}
+	
+/*CONTACE-PGE*/
+#contactForm { 
+  padding: 1.5em;
+  width: 70%;
+	height: 50%; 
+	border: 0.5px solid #000;
+	}
+	
+.form {
+	margin-top: 50px;
+	font-size: 18px;
+	}	
+	
+#contactForm { 
+  top:45%;
+	height: auto;
+	width: 50%;
+	}	
+}
+
+@media screen and (min-width: 0px) and (max-width: 639px) {
+	
+.display-ph {
+	display: block;
+}
+	
+.hidden-ph {
+	display: none;
+}	
+	
+.nav-links .nav-link {
+  padding: 1.3rem;
+  font-size: 6vw;
+}	
+	
+.nav-links {
+   margin-top: 5rem;
+   text-align: center;
+}
+	
+.nav-main.loading .menu-toggle {
+  left: 15%;
+}
+	
+.section-home, .logo-design-pge, .id-pge, .Logo-		design-pge, .contact-pge{
+	background-position: 70% -20%;
+	}
+	
+/*----HOME PAGE----*/	
+.orange-logo {
+	padding-right: 10px;
+ 	padding-top: 10px;
+}	
+	
+#show-hide {
+  margin: 50px 15px 25px 0;
+}	
+	
+.play-portfolio, #show-hide {
+  font-size: 17px;
+}
+	
+.contact-info {
+	font-size: 20px;
+	letter-spacing: auto;
+	line-height: 30px;
+}	
+	
+.my-title{
+	font-size: 5vw;	
+}	
+	
+#container {
+  bottom: 20px;
+}	
+
+.fa-envelope {
+	padding: 0;
+}	
+	
+.menu-toggle {
+  height: 30px;
+  width: 10px;
+  top: 30px;
+  left: 20px;
+}
+	
+.play-portfolio, #show-hide {
+  font-size: 15px;
+  padding: 4px 14px;
+}	
+	
+/*---LOGO PAGE----*/
+
+.page-heading {
+	font-size: 28px;
+	text-align: right;
+	padding: 30px 10px 30px 0px;
+	color: var(--green);
+}
+	
+.target {
+	width: 100%;
+	font-size: 1.3em;
+	padding: 5px;
+}	
+	
+.contact-info {
+	font-size: 17.5px;
+}	
+	
+.logo-container {
+	margin: 0 auto;
+	align-content: center;
+	overflow-x: hidden;
+}
+	
+.logo-container img {
+  display: block;
+  max-width:180px;
+  width: auto;
+}	
+	
+/*click inside slider	*/
+	
+.logo-design-pge {
+  height: auto;
+	width: 100%;
+}	
+/*CORPORATE ID PGE*/
+	
+.csslider > ul{
+  max-width: 80%;
+	max-height: auto;
+}	
+	
+.csslider > .arrows {
+  left: 120px;
+  top: 108%;
+  width: 50%;
+  height: 26px;
+  padding: 0;
+  z-index: 4;
+}
+	
+.csslider > .navigation {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  z-index: 10;
+  margin-bottom: -10px;
+}
+	
+.csslider {
+  margin-bottom: 0px;
+	height: auto;
+}
+	
+.id-pge {
+	height: 100vh;
+}
+	
+.head-id {
+	z-index: 1;
+	position: absolute;
+	height: 100vh;
+	font-size: 25px;
+}
+	
+/*ILLUSTRATION-PAGE	*/
+.slide-show {
+  font-size: 15px;
+  letter-spacing: 1;
+  padding: 5px 15px;
+	margin-top: 15px;
+}
+	
+.illutr-pge{
+	height: auto;
+}
+
+.hover img{ 
+	max-width: 160px;
+	max-height: auto;
+}	
+/*Animation-Pge*/
+.sound-animation-pge {
+	height: auto;
+}
+
+.animation-heading	{
+	font-size: 25px;
+  text-align: right;
+	max-width: 360px;
+  padding: 20px 3px 0px 0px;
+	}
+
+.video-container {
+	flex-direction: column;
+	height: 90vh;
+	overflow-y: hidden;
+	}
+
+.view-info-btn {
+  font-size: 18px;
+  padding: 3px 12px;
+  letter-spacing: 0.5px;
+}	
+
+.v {
+   padding: 3px 8px;
+}		
+.video	{
+	display: flex;
+	flex-wrap: wrap;
+	height: 50%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.div-info-btn {
+	margin-top: 0px;
+	}
+	
+/*WEB-SITE-PAGE*/
+.web-design-pge {
+  text-align: center;
+  height: auto;
+}
+	
+.website-container {
+	width: 100%;
+	float: none;
+}
+	
+.website-container h2 {
+     font-size: 19px; 
+}	
+
+.btn-container {
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+/*CONTACT PAGE*/
+	
+#contact { 
+	font-size: 16px;
+	z-index: 2;
+}
+	
+.email-number{
+	font-size: 20px;
+	}
+	
+.footer {
+	font-size: 15px;
+	text-align: center;
+	padding: 15px 0px;
+	letter-spacing: 2;
+	}	
+	
+.footer button {
+	text-align: center;
+	float: none;
+	font-size: 14px;
+	margin-top: 20px;
+	}
+	
+.contact-btn-container{
+	padding-bottom: 10px;
+}
+	
+.my-number{
+	font-size: 20px;	
+}
+	
+.contactnumber-div {
+	text-align: right;
+	padding-right: 15px;
+	position: absolute;
+	right: 0;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	font-size: 16px;
+	top: 28vh;
+	}
+	
+.form {
+		margin-top: 50px;
+	}	
+
+#contactForm{
+	width: 100%;
+	top:46%;
+	padding: 1em;
+}	
+	
+input, textarea { 
+  margin: .4em auto;
+}
+	
+	
+#darkbox_description{
+	font-size: 5vw;
+	color: #6F6E6E;
+	bottom: 1px;
+}
+	
+#darkbox_prev,
+#darkbox_next {
+  top: 68%;
+	z-index: 3;
+}
+	
+#darkbox_prev{
+  left: 50px;
+}
+
+#darkbox_next{
+ right: 50px;
+}
+
+
+
+
+
+
+
