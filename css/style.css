@@ -928,12 +928,9 @@ iframe {
 }
 
 .website-container {
-	width: 33.33333%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  text-align: center;
+  width: 50%;
 }
-
 
 .website-container h2 {
 	padding: 0;
@@ -947,12 +944,6 @@ iframe {
 	transition: all .2s ease-in-out;
 }
 
-
-u {
-	text-decoration: underline;
-	color: var(--orange);
-}
-
 /*
 .bold:hover{
 	color: var(--green);
@@ -960,6 +951,36 @@ u {
 u:hover{
 	color: var(--green);
 }*/
+
+.big-web-container{
+	height: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	max-width: 1366px;
+}
+
+.website-container iframe {
+	height: 350px;
+	width:300px;
+	z-index: 1;
+	background-color: #fff;
+}
+
+#myDIV5 {
+	border:	1px solid #C4C4C4;
+}
+
+.hover-iframe2 {
+	height: 350px;
+	width:300px;
+	z-index: 1;
+	margin: 30px auto; 
+}
+
+.black p {
+	color: #000;
+}
 
 .bold {
 	font-weight: 700;
@@ -975,34 +996,9 @@ u:hover{
 	text-align: center;
 }
 
-.big-web-container{
-	height: 75%;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-}
-
-.website-container iframe {
-	height: 350px;
-	width:300px;
-	z-index: 1;
-	text-align: center;
-	background-color: #fff;
-}
-
-#myDIV5 {
-	border:	1px solid #C4C4C4;
-}
-
-.hover-iframe2 {
-	height: 350px;
-	width:300px;
-	z-index: 1;
-	margin: 30px 0;
-}
-
-.black p {
-	color: #000;
+u {
+	text-decoration: underline;
+	color: var(--orange);
 }
 
 /*CONTACT-PAGE*/
